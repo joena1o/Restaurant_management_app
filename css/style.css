@@ -1,0 +1,89 @@
+.nav-dash{
+
+	width: 100%;
+	height: 100vh;
+
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.Container{
+	width:100%;
+	height: 100vh;
+	margin: 0;
+	
+}
+.nav-dash ul{
+	list-style: none;
+	padding:20px
+}
+.nav-dash ul li{
+	padding: 15px;
+}
+.nav-dash ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+
+.items{
+	background-color: rgb(48, 47, 47);
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+	width: 95%;
+	margin: 10px 0px 10px 0px;
+	box-shadow: rgba(18, 19, 20, 0.2) 0px 8px 24px;
+}
+.items .amount{
+	font-size: 30px;
+}
+.links ul{
+	display: inline-flex;
+	list-style: none;
+}
+nav{
+	box-shadow: rgba(18, 19, 20, 0.2) 0px 8px 24px;
+}
+.links ul li, .links ul li a{
+	padding: 10px 20px 10px 0px;
+	text-decoration: none;
+	color:black;
+}
+.cont-holder{
+	display: inline-flex;
+	justify-content: center;
+	
+}
+.navbtn{
+	visibility: hidden; 
+
+}
+.contents{
+	padding: 10px;
+}
+.table{
+	overflow-x: scroll;
+	
+}
+
+.login_cont{
+	width: 60vw;
+	margin-top: 20vh;
+	padding: 20px;
+	color:white;
+	box-shadow: rgba(18, 19, 20, 0.2) 0px 8px 24px;
+}
+.login_cont form{
+	padding: 10px;
+}
+@media only screen and (max-width:1000px){
+	.nav-dash, .links{
+		display: none;
+	}
+	.navbtn{
+		visibility: visible;
+		margin-right: 20px;
+	}
+}
